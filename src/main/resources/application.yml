@@ -31,3 +31,10 @@ springdoc:
     path: /api-docs
   swagger-ui:
     path: /swagger-ui
+
+logging:
+  file:
+    name: logs/application.log
+  level:
+    root: INFO
+    org.pad.documentmanagement: DEBUG
