@@ -15,7 +15,7 @@ class DocumentService {
         return documentRepository.findByName("padou")
     }
 
-    fun helloWorld(): String {
-        return "Hello World"
+    fun helloWorld(): Document {
+        return documentRepository.findAll().first()
     }
 }
