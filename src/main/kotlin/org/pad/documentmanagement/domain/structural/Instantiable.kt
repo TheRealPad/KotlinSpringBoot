@@ -52,16 +52,10 @@ open class Instantiable : Serializable {
     @LastModifiedDate
     @Temporal(TemporalType.TIMESTAMP)
     @Builder.Default
-    val lastModified: Date = Date.from(Instant.now())
+    var lastModified: Date = Date.from(Instant.now())
 
     @LastModifiedBy
     @Builder.Default
-    val editedBy = ""
-
-    @Builder.Default
-    val creatorName = ""
-
-    @Builder.Default
-    val editorName = ""
+    var editedBy = ""
 
 }
