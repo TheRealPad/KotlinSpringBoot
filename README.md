@@ -1,3 +1,7 @@
+A
+B
+B
+B
 # DocumentManagement (API template)
 
 Api with Kotlin and Spring boot
